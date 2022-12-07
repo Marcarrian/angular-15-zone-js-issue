@@ -2,6 +2,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@mycompany/my-lib-two": [
+        "dist/mycompany/my-lib-two"
+      ],
+      "lib-one": [
+        "dist/lib-one",
+        "dist/lib-one"
+      ],
+      "lib-two": [
+        "dist/lib-two"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
